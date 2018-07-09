@@ -2,6 +2,14 @@
 
 The JavaScript temperature sensor.
 
+It advertises its temperature and humidity from a dht sensor over a ble advertising packet using the Manufacturer Specific Data:
+
+```
+Manufacturer Specific Data: 0xFF
+temperature: 8 byte little endian double
+humidity: 8 byte little endian double
+```
+
 ## Files
 
 ### sensor.js
