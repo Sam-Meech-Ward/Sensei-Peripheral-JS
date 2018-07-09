@@ -1,4 +1,4 @@
-# Sensie 
+# Sensei 
 
 The JavaScript temperature sensor.
 
